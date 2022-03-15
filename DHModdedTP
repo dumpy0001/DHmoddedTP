@@ -1,0 +1,564 @@
+--made by dumpy#0001 toggle is V dm me on dc for any ideas 
+local ScreenGui = Instance.new("ScreenGui")
+local TPsFrame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local BankButton = Instance.new("TextButton")
+local HoodFitButton = Instance.new("TextButton")
+local ClubButton = Instance.new("TextButton")
+local CasinoButton = Instance.new("TextButton")
+local BasketButton = Instance.new("TextButton")
+local AdminBaseButton = Instance.new("TextButton")
+local FoodStoreButton = Instance.new("TextButton")
+local OtherFoodButton = Instance.new("TextButton")
+local PlaygroundButton = Instance.new("TextButton")
+local SchoolButton = Instance.new("TextButton")
+local _1v1Button = Instance.new("TextButton")
+local HighArmorButton = Instance.new("TextButton")
+local DBButton = Instance.new("TextButton")
+local RevButton = Instance.new("TextButton")
+local RaygunButton = Instance.new("TextButton")
+local RPGbutton = Instance.new("TextButton")
+local DownhillButton = Instance.new("TextButton")
+local GoldenAKButton = Instance.new("TextButton")
+local FlamethrowerButton = Instance.new("TextButton")
+local CarButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+TPsFrame.Name = "TP'sFrame"
+TPsFrame.Parent = ScreenGui
+TPsFrame.BackgroundColor3 = Color3.fromRGB(250, 88, 6)
+TPsFrame.Position = UDim2.new(0.330355436, 0, 0.242167458, 0)
+TPsFrame.Size = UDim2.new(0, 428, 0, 328)
+TPsFrame.Active = true
+TPsFrame.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.26, Color3.fromRGB(140, 140, 140)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = TPsFrame
+
+UICorner.Parent = TPsFrame
+
+BankButton.Name = "BankButton"
+BankButton.Parent = TPsFrame
+BankButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BankButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BankButton.BorderSizePixel = 0
+BankButton.Position = UDim2.new(0.0443925224, 0, 0.0626959279, 0)
+BankButton.Size = UDim2.new(0, 85, 0, 50)
+BankButton.Font = Enum.Font.SourceSansSemibold
+BankButton.Text = "Bank"
+BankButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+BankButton.TextScaled = true
+BankButton.TextSize = 14.000
+BankButton.TextWrapped = true
+BankButton.MouseButton1Down:connect(function()
+	--Bank
+	local New_CFrame = CFrame.new(-2360.5752, 403.834717, -944.398376, 0.0274257027, 8.55750741e-08, 0.999623835, -4.24589928e-08, 1, -8.44423766e-08, -0.999623835, -4.01271301e-08, 0.0274257027)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+HoodFitButton.Name = "HoodFitButton"
+HoodFitButton.Parent = TPsFrame
+HoodFitButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HoodFitButton.BorderSizePixel = 0
+HoodFitButton.Position = UDim2.new(0.752336442, 0, 0.0626959279, 0)
+HoodFitButton.Size = UDim2.new(0, 85, 0, 50)
+HoodFitButton.Font = Enum.Font.SourceSansSemibold
+HoodFitButton.Text = "Hood Fitness"
+HoodFitButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HoodFitButton.TextScaled = true
+HoodFitButton.TextSize = 14.000
+HoodFitButton.TextWrapped = true
+HoodFitButton.MouseButton1Down:connect(function()
+	--Hood Fitness
+	local New_CFrame = CFrame.new(-2001.58447, 403.564423, -1279.95312, 0.999769092, -2.65119411e-08, 0.0214891396, 2.5554229e-08, 1, 4.48418191e-08, -0.0214891396, -4.42823271e-08, 0.999769092)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+ClubButton.Name = "ClubButton"
+ClubButton.Parent = TPsFrame
+ClubButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ClubButton.BorderSizePixel = 0
+ClubButton.Position = UDim2.new(0.51869154, 0, 0.0626959279, 0)
+ClubButton.Size = UDim2.new(0, 85, 0, 50)
+ClubButton.Font = Enum.Font.SourceSansSemibold
+ClubButton.Text = "Club"
+ClubButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClubButton.TextScaled = true
+ClubButton.TextSize = 14.000
+ClubButton.TextWrapped = true
+ClubButton.MouseButton1Down:connect(function()
+	--Club
+	local New_CFrame = CFrame.new(-2192.18115, 380.895477, -997.734009, 0.999999881, 2.61745203e-08, 0.00050137873, -2.6189964e-08, 1, 3.07961905e-08, -0.00050137873, -3.08093178e-08, 0.999999881)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+CasinoButton.Name = "CasinoButton"
+CasinoButton.Parent = TPsFrame
+CasinoButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CasinoButton.BorderSizePixel = 0
+CasinoButton.Position = UDim2.new(0.275700897, 0, 0.0626959279, 0)
+CasinoButton.Size = UDim2.new(0, 85, 0, 50)
+CasinoButton.Font = Enum.Font.SourceSansSemibold
+CasinoButton.Text = "Casino"
+CasinoButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CasinoButton.TextScaled = true
+CasinoButton.TextSize = 14.000
+CasinoButton.TextWrapped = true
+CasinoButton.MouseButton1Down:connect(function()
+	--Casino
+	local New_CFrame = CFrame.new(-2765.75415, 402.621063, -790.289673, -0.92583698, -3.37217521e-09, 0.377923101, 1.3801657e-10, 1, 9.26102661e-09, -0.377923101, 8.62636096e-09, -0.92583698)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+BasketButton.Name = "BasketButton"
+BasketButton.Parent = TPsFrame
+BasketButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BasketButton.BorderSizePixel = 0
+BasketButton.Position = UDim2.new(0.0467289723, 0, 0.250783712, 0)
+BasketButton.Size = UDim2.new(0, 85, 0, 50)
+BasketButton.Font = Enum.Font.SourceSansSemibold
+BasketButton.Text = "Basketball Court"
+BasketButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+BasketButton.TextScaled = true
+BasketButton.TextSize = 14.000
+BasketButton.TextWrapped = true
+BasketButton.MouseButton1Down:connect(function()
+	--Basketball Court
+	local New_CFrame = CFrame.new(-2750.41895, 403.150513, -1140.68494, -0.999987423, -3.98865083e-08, -0.00501884148, -4.04135179e-08, 1, 1.04904949e-07, 0.00501884148, 1.05106459e-07, -0.999987423)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+AdminBaseButton.Name = "AdminBaseButton"
+AdminBaseButton.Parent = TPsFrame
+AdminBaseButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminBaseButton.Position = UDim2.new(0.280373842, 0, 0.250783712, 0)
+AdminBaseButton.Size = UDim2.new(0, 85, 0, 50)
+AdminBaseButton.Font = Enum.Font.SourceSansSemibold
+AdminBaseButton.Text = "Admin Base"
+AdminBaseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminBaseButton.TextScaled = true
+AdminBaseButton.TextSize = 14.000
+AdminBaseButton.TextWrapped = true
+AdminBaseButton.MouseButton1Down:connect(function()
+	--Admin Base
+	local New_CFrame = CFrame.new(-2723.229, 341.215057, -1546.12463, -0.00292969635, -2.78904171e-08, 0.999995708, -8.36926475e-08, 1, 2.7645342e-08, -0.999995708, -8.36112974e-08, -0.00292969635)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3.5, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+FoodStoreButton.Name = "FoodStoreButton"
+FoodStoreButton.Parent = TPsFrame
+FoodStoreButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FoodStoreButton.Position = UDim2.new(0.521028042, 0, 0.250783712, 0)
+FoodStoreButton.Size = UDim2.new(0, 85, 0, 50)
+FoodStoreButton.Font = Enum.Font.SourceSansSemibold
+FoodStoreButton.Text = "Food Store"
+FoodStoreButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FoodStoreButton.TextScaled = true
+FoodStoreButton.TextSize = 14.000
+FoodStoreButton.TextWrapped = true
+FoodStoreButton.MouseButton1Down:connect(function()
+	--Food Store
+	local New_CFrame = CFrame.new(-2252.83862, 404.5466, -950.419739, -0.00702797715, 7.94021702e-08, -0.999975324, -2.19862777e-08, 1, 7.95586601e-08, 0.999975324, 2.25448709e-08, -0.00702797715)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+OtherFoodButton.Name = "OtherFoodButton"
+OtherFoodButton.Parent = TPsFrame
+OtherFoodButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OtherFoodButton.Position = UDim2.new(0.752336442, 0, 0.250783712, 0)
+OtherFoodButton.Size = UDim2.new(0, 85, 0, 50)
+OtherFoodButton.Font = Enum.Font.SourceSansSemibold
+OtherFoodButton.Text = "Other Food"
+OtherFoodButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OtherFoodButton.TextScaled = true
+OtherFoodButton.TextSize = 14.000
+OtherFoodButton.TextWrapped = true
+OtherFoodButton.MouseButton1Down:connect(function()
+	--Food
+	local New_CFrame = CFrame.new(-2208.72388, 403.513885, -1464.3551, 0.999946177, 3.19905213e-09, -0.0103734517, -4.31048086e-09, 1, -1.07119305e-07, 0.0103734517, 1.07158257e-07, 0.999946177)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+PlaygroundButton.Name = "PlaygroundButton"
+PlaygroundButton.Parent = TPsFrame
+PlaygroundButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlaygroundButton.Position = UDim2.new(0.0446635485, 0, 0.442382425, 0)
+PlaygroundButton.Size = UDim2.new(0, 85, 0, 50)
+PlaygroundButton.Font = Enum.Font.SourceSansSemibold
+PlaygroundButton.Text = "Playground"
+PlaygroundButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlaygroundButton.TextScaled = true
+PlaygroundButton.TextSize = 14.000
+PlaygroundButton.TextWrapped = true
+PlaygroundButton.MouseButton1Down:connect(function()
+	--Playground
+	local New_CFrame = CFrame.new(-2200.04688, 403.013885, -1441.91943, -0.999554753, -4.91067742e-10, -0.0298374537, 1.53098578e-09, 1, -6.77461216e-08, 0.0298374537, -6.77616399e-08, -0.999554753)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+SchoolButton.Name = "SchoolButton"
+SchoolButton.Parent = TPsFrame
+SchoolButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SchoolButton.Position = UDim2.new(0.278308392, 0, 0.442382425, 0)
+SchoolButton.Size = UDim2.new(0, 85, 0, 50)
+SchoolButton.Font = Enum.Font.SourceSansSemibold
+SchoolButton.Text = "School"
+SchoolButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SchoolButton.TextScaled = true
+SchoolButton.TextSize = 14.000
+SchoolButton.TextWrapped = true
+SchoolButton.MouseButton1Down:connect(function()
+	--School
+	local New_CFrame = CFrame.new(-2579.44775, 402.597656, -395.252441, -0.999999464, -4.68327821e-09, -0.00105074607, -4.68064387e-09, 1, -2.50972931e-09, 0.00105074607, -2.50480969e-09, -0.999999464)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+_1v1Button.Name = "1v1Button"
+_1v1Button.Parent = TPsFrame
+_1v1Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_1v1Button.Position = UDim2.new(0.518962622, 0, 0.442382425, 0)
+_1v1Button.Size = UDim2.new(0, 85, 0, 50)
+_1v1Button.Font = Enum.Font.SourceSansSemibold
+_1v1Button.Text = "1v1"
+_1v1Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1v1Button.TextScaled = true
+_1v1Button.TextSize = 14.000
+_1v1Button.TextWrapped = true
+_1v1Button.MouseButton1Down:connect(function()
+	--1v1 Area
+	local New_CFrame = CFrame.new(-2968.21631, 402.126038, -843.290833, 0.00610343833, -3.5731571e-09, -0.999981403, 6.01357231e-09, 1, -3.53651952e-09, 0.999981403, -5.991875e-09, 0.00610343833)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+HighArmorButton.Name = "HighArmorButton"
+HighArmorButton.Parent = TPsFrame
+HighArmorButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HighArmorButton.Position = UDim2.new(0.752607465, 0, 0.442382425, 0)
+HighArmorButton.Size = UDim2.new(0, 85, 0, 50)
+HighArmorButton.Font = Enum.Font.SourceSansSemibold
+HighArmorButton.Text = "High Armor"
+HighArmorButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HighArmorButton.TextScaled = true
+HighArmorButton.TextSize = 14.000
+HighArmorButton.TextWrapped = true
+HighArmorButton.MouseButton1Down:connect(function()
+	--High Armor
+	local New_CFrame = CFrame.new(-2859.88672, 352.349548, -87.3692245, -0.999812007, 1.26603616e-08, 0.0193891972, 1.28459439e-08, 1, 9.4468664e-09, -0.0193891972, 9.69416281e-09, -0.999812007)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(4, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+DBButton.Name = "DBButton"
+DBButton.Parent = TPsFrame
+DBButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DBButton.Position = UDim2.new(0.0446635485, 0, 0.630470216, 0)
+DBButton.Size = UDim2.new(0, 85, 0, 50)
+DBButton.Font = Enum.Font.SourceSansSemibold
+DBButton.Text = "Double Barrel"
+DBButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DBButton.TextScaled = true
+DBButton.TextSize = 14.000
+DBButton.TextWrapped = true
+DBButton.MouseButton1Down:connect(function()
+	--Double Barrel
+	local New_CFrame = CFrame.new(-2966.53149, 402.403748, -920.97406, -0.999875844, -1.96921217e-08, 0.0157577954, -2.092969e-08, 1, -7.83719685e-08, -0.0157577954, -7.86920467e-08, -0.999875844)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+RevButton.Name = "RevButton"
+RevButton.Parent = TPsFrame
+RevButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RevButton.Position = UDim2.new(0.278308392, 0, 0.630470216, 0)
+RevButton.Size = UDim2.new(0, 85, 0, 50)
+RevButton.Font = Enum.Font.SourceSansSemibold
+RevButton.Text = "Revolver"
+RevButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+RevButton.TextScaled = true
+RevButton.TextSize = 14.000
+RevButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+RevButton.TextWrapped = true
+RevButton.MouseButton1Down:connect(function()
+	--Revolver
+	local New_CFrame = CFrame.new(-2569.34619, 402.614166, -782.834167, -0.999710798, 6.14796605e-08, -0.0240492914, 5.95741874e-08, 1, 7.99485775e-08, 0.0240492914, 7.84927394e-08, -0.999710798)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+RaygunButton.Name = "RaygunButton"
+RaygunButton.Parent = TPsFrame
+RaygunButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RaygunButton.Position = UDim2.new(0.518962622, 0, 0.630470216, 0)
+RaygunButton.Size = UDim2.new(0, 85, 0, 50)
+RaygunButton.Font = Enum.Font.SourceSansSemibold
+RaygunButton.Text = "Raygun"
+RaygunButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+RaygunButton.TextScaled = true
+RaygunButton.TextSize = 14.000
+RaygunButton.TextWrapped = true
+RaygunButton.MouseButton1Down:connect(function()
+	--Raygun
+	local New_CFrame = CFrame.new(-2435.69922, 402.724548, -285.665283, -0.00509872055, 1.79180959e-09, 0.999987006, 9.7733853e-08, 1, -1.29350886e-09, -0.999987006, 9.77259873e-08, -0.00509872055)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(4, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+RPGbutton.Name = "RPGbutton"
+RPGbutton.Parent = TPsFrame
+RPGbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RPGbutton.Position = UDim2.new(0.752607465, 0, 0.630470216, 0)
+RPGbutton.Size = UDim2.new(0, 85, 0, 50)
+RPGbutton.Font = Enum.Font.SourceSansSemibold
+RPGbutton.Text = "RPG"
+RPGbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+RPGbutton.TextScaled = true
+RPGbutton.TextSize = 14.000
+RPGbutton.TextWrapped = true
+RPGbutton.MouseButton1Down:connect(function()
+	--RPG
+	local New_CFrame = CFrame.new(-1807.73767, 354.114227, -934.398621, -0.999933243, -5.68554412e-08, -0.0115530686, -5.74420191e-08, 1, 5.04407112e-08, 0.0115530686, 5.11009759e-08, -0.999933243)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+DownhillButton.Name = "DownhillButton"
+DownhillButton.Parent = TPsFrame
+DownhillButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DownhillButton.Position = UDim2.new(0.0446635485, 0, 0.818558037, 0)
+DownhillButton.Size = UDim2.new(0, 85, 0, 50)
+DownhillButton.Font = Enum.Font.SourceSansSemibold
+DownhillButton.Text = "Downhill Gunz"
+DownhillButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+DownhillButton.TextScaled = true
+DownhillButton.TextSize = 14.000
+DownhillButton.TextWrapped = true
+DownhillButton.MouseButton1Down:connect(function()
+	--Downhill Gunz/Tyrone's Gunz
+	local New_CFrame = CFrame.new(-2491.31494, 388.637085, -1397.40515, 0.825578451, 2.56795794e-08, 0.564287364, 4.6141956e-08, 1, -1.13015787e-07, -0.564287364, 1.19340726e-07, 0.825578451)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+GoldenAKButton.Name = "GoldenAKButton"
+GoldenAKButton.Parent = TPsFrame
+GoldenAKButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GoldenAKButton.Position = UDim2.new(0.275971949, 0, 0.818558037, 0)
+GoldenAKButton.Size = UDim2.new(0, 85, 0, 50)
+GoldenAKButton.Font = Enum.Font.SourceSansSemibold
+GoldenAKButton.Text = "Golden AK"
+GoldenAKButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GoldenAKButton.TextScaled = true
+GoldenAKButton.TextSize = 14.000
+GoldenAKButton.TextWrapped = true
+GoldenAKButton.MouseButton1Down:connect(function()
+	--Golden AK
+	local New_CFrame = CFrame.new(-1992.07446, 322.164246, -495.154175, -0.000613952987, -1.34396156e-08, -0.999999821, -5.5756388e-08, 1, -1.3405387e-08, 0.999999821, 5.57481457e-08, -0.000613952987)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+FlamethrowerButton.Name = "FlamethrowerButton"
+FlamethrowerButton.Parent = TPsFrame
+FlamethrowerButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FlamethrowerButton.Position = UDim2.new(0.518962622, 0, 0.818558037, 0)
+FlamethrowerButton.Size = UDim2.new(0, 85, 0, 50)
+FlamethrowerButton.Font = Enum.Font.SourceSansSemibold
+FlamethrowerButton.Text = "Flamethrower"
+FlamethrowerButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlamethrowerButton.TextScaled = true
+FlamethrowerButton.TextSize = 14.000
+FlamethrowerButton.TextWrapped = true
+FlamethrowerButton.MouseButton1Down:connect(function()
+	--Flamethrower
+	local New_CFrame = CFrame.new(-2074.59082, 434.674683, -763.45343, 0.999999702, -4.20884625e-08, 0.000756715657, 4.21194351e-08, 1, -4.09122549e-08, -0.000756715657, 4.09441157e-08, 0.999999702)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(3, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+CarButton.Name = "CarButton"
+CarButton.Parent = TPsFrame
+CarButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CarButton.Position = UDim2.new(0.752607465, 0, 0.818558037, 0)
+CarButton.Size = UDim2.new(0, 85, 0, 50)
+CarButton.Font = Enum.Font.SourceSansSemibold
+CarButton.Text = "Car"
+CarButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CarButton.TextScaled = true
+CarButton.TextSize = 14.000
+CarButton.TextWrapped = true
+CarButton.MouseButton1Down:connect(function()
+	--Car
+	local New_CFrame = CFrame.new(-1672.9574, 402.524689, -709.097839, -0.0268380996, 9.11147069e-08, -0.999639809, 7.23848004e-08, 1, 8.92041712e-08, 0.999639809, -6.99646563e-08, -0.0268380996)
+
+	local ts = game:GetService('TweenService')
+	local char = game.Players.LocalPlayer.Character
+
+	local part = char.HumanoidRootPart
+	local ti = TweenInfo.new(4.5, Enum.EasingStyle.Linear)
+	local tp = {CFrame = New_CFrame}
+	ts:create(part, ti ,tp):Play()
+end)
+
+TextLabel.Parent = TPsFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.0467289723, 0, -0.112804875, 0)
+TextLabel.Size = UDim2.new(0, 387, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Made By dumpy#0001"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+local function CFIMWTJ_fake_script() -- TPsFrame.LocalScript 
+	local script = Instance.new('LocalScript', TPsFrame)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "v" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+			script.Parent.Parent.CreditsButton.Visible = true
+			script.Parent.Parent.TeleportsButton.Visible = true
+		else
+			if key == "v" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+				script.Parent.Parent.CreditsButton.Visible = false
+				script.Parent.Parent.TeleportsButton.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(CFIMWTJ_fake_script)()
